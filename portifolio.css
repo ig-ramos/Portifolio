@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+body{
+    background: beige;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: beige;
+}
+
+.nav-list a{
+    color: azure;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-list a:hover{
+    background: rgb(74, 16, 126);;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(43, 4, 78);
+    height: 15vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+#sec-left{
+    margin-left: 15px;
+    margin-top: 90px;
+    margin-left: 180px;
+    display: inline-block;
+}
+
+#sec-left img{
+    border-radius: 50%;
+}
+
+#sec-rigth{
+    background: rgb(250, 246, 246);
+    width: 750px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: -5px 5px 2em #888;
+}
+
+#sec2-rigth{
+    background: rgb(250, 246, 246);
+    width: 750px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: -5px 5px 2em #888;
+}
+
+#sec2-rigth a{
+    color: black;
+    text-decoration: none;
+}
+
+#sec2-rigth a:hover{
+    transition: 0.4s;
+    color: rgb(224, 85, 20);
+}
+
+#sec-rigth p{
+    text-align: left;
+    font-size: 19px;
+    padding: 10px;
+    word-spacing: 3px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+#sec2-rigth p{
+    text-align: left;
+    font-size: 19px;
+    padding: 10px;
+    word-spacing: 3px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+section.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section.parallax{
+    background-image: url(ncapa.jpeg);
+}
+
+section.parallax-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section.parallax-2{
+    background-image: url(capanova.jpg);
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
