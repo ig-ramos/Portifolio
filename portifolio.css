@@ -6,8 +6,12 @@
     box-sizing: border-box;
 }
 
-body{
+.ligth-theme{
     background: beige;
+}
+
+.dark-theme{
+    background: #888;
 }
 
 h1{
@@ -34,7 +38,7 @@ h1{
 }
 
 .nav-list a:hover{
-    background: rgb(74, 16, 126);;
+    background: rgb(74, 16, 126);
     padding: 15px;
     border-radius: 5px;
 }
@@ -169,6 +173,17 @@ footer{
     display: none;
 }
 
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius: 30%;
+    border: none;
+    cursor: pointer;
+}
+
 @media (max-width: 600px){
     .nav-list{
         display: block;
@@ -224,10 +239,14 @@ footer{
         border-top-color: transparent;
     }
     .checkbox:checked ~ .label-menu .hamburguer::before{
-        transform: rotate(135deg);
+        transform: rotate(140deg);
     }
     .checkbox:checked ~ .label-menu .hamburguer::after{
-        transform: rotate(-135deg);
+        transform: rotate(-140deg);
         top: -0,4375rem;
+    }
+
+    .btn{
+        display: none;
     }
 }
